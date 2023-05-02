@@ -1,1 +1,14 @@
 @charset "utf-8";
+.navbar.navbar-lighter {
+    padding: 0 0;
+    min-height: 48px;
+}
+.banner {
+    background: url(images/baner.png);
+    background-size: cover;
+    background-position: bottom;
+    height: 400px;
+}
+.banner .colorize {
+    height: 400px;
+}

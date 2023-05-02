@@ -1,0 +1,2 @@
+# Lighter
+Plantilla para wordpress
