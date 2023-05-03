@@ -1,14 +1,16 @@
 @charset "utf-8";
+body{
+    
+}
 .navbar.navbar-lighter {
     padding: 0 0;
     min-height: 48px;
 }
 .banner {
-    background: url(images/baner.png);
-    background-size: cover;
-    background-position: bottom;
-    height: 400px;
+    --bs-bg-opacity: .75;
+    background: rgba(var(--bs-danger-rgb), var(--bs-bg-opacity)) !important;
 }
+
 .banner .colorize {
-    height: 400px;
+    padding-top: 64px;
 }
